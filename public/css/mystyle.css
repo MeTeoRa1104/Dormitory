@@ -1,0 +1,383 @@
+                .body{
+                background:white;
+                }
+
+            ul.mymenu {
+                position: absolute;
+                display: block;
+                left:170px;
+                top:7px;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            ul.mymenu:after {
+                display: block;
+                content: ' ';
+                clear: both;
+                float: none;
+            }
+            ul.mymenu > li {
+                 width:170px;
+                height: 30px;
+                float: left;
+                position: relative;
+            }
+            ul.mymenu > li > a {
+                 color: #bcc8db;
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+                padding-top: 0.3125rem;
+                 padding-bottom: 0.3125rem;
+                font-size: 1.25rem;
+            }
+            ul.mymenu > li > a:hover {
+                 font-size: 22px;
+                 transition: .5s linear;
+            }
+            ul.mysubmenu {
+                border-radius: 10px;
+                padding-left: 0px;
+                width: 200px;
+                display: none;
+                position: absolute;
+                top: 47px;
+                left: 0px;
+            }
+            ul.mysubmenu > li { 
+                display: block;
+            }
+             ul.mysubmenu > li.firstli { 
+                  border-radius: 19px 10px 0px 0px;
+                display: block;
+            }
+            ul.mysubmenu > li > a.first{
+                border-radius: 10px 10px 0px 0px;
+                       padding-left: 0px;
+                display: block;
+                padding: 7px;
+                color: white;
+                background-color: grey;
+                text-decoration: none; 
+            }
+                ul.mysubmenu > li.lastli { 
+                display: block;
+                 border-radius:  0px 0px 10px 10px;
+            }
+            ul.mysubmenu > li > a.last{
+                   border-radius:  0px 0px 10px 10px;
+                       padding-left: 0px;
+                display: block;
+                padding: 7px;
+                color: white;
+                background-color: grey;
+                text-decoration: none; 
+            }
+            ul.mysubmenu > li > a {
+                 padding-left: 0px;
+                display: block;
+                padding: 7px;
+                color: white;
+                background-color: grey;
+                text-decoration: none;
+            }
+            ul.mysubmenu > li > a:hover {
+               background: black;
+                padding-left: 10px;
+                 transition: .5s linear;
+            }
+            ul.mymenu > li:hover > ul.mysubmenu {
+                display: block;
+            }
+
+
+        .seachdiv{
+              position: absolute;
+            text-align: center;
+            top:30px;
+        }
+        .searchinput{
+            border-radius: 30px;
+            border: 1.5px inset red;
+            width:350px;
+            height: 35px;
+            font-size: 14px;
+            background: linear-gradient(-70deg,#f7d683,#ffc73d )
+        }
+        .searchbutton{
+            text-align: center;
+            border: 1.5px outset red;
+            width: 75px;
+            border-radius: 25px;
+            background: #e3e4e5;
+            font-family: gabriola;
+            font-size: 15px;
+        }
+         .userinfo{
+            font-family: Courier new;
+            margin-left: 20px;
+            color: black;
+            font-size: 25px;
+            font-weight: 500;
+        }
+               .formslabel{
+            font-family: Courier new;
+            margin-left: 20px;
+            color: black;
+            font-size: 25px;
+            font-weight: 500;
+        }
+        .object{
+           background:#646466;
+           background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px;
+            margin-left:200px;
+            margin-top:50px;
+            width:1150px;
+            height:300px;
+            border: 0.1px solid black;
+        }
+        .object:hover{
+            background: #888889;
+            transition: .5s linear;
+        }
+        .photo{
+            height:250px;
+            width:250px;
+            margin-top:20px;
+            margin-left:15px;
+        }
+        .object-name{
+            position: relative;
+            top:-290px;
+            left:500px;
+            height:30px;
+            width:500px;
+            margin-top:10px;
+            margin-left:15px;
+        }
+        .object-sdfd{
+            margin-left: 300px;
+        }
+        .object-user{
+            position: relative;
+            top:-290px;
+            left:550px;
+            height:30px;
+            width:300px;
+            margin-top:10px;
+            margin-left:15px;
+        }
+        .object-fb{
+            position: relative;
+            top:-270px;
+            left:300px;
+            height:30px;
+            width:400px;
+            margin-top:10px;
+            margin-left:15px;
+        }
+        .object-button{
+            position: relative;
+            top:-290px;
+            left:850px;
+            height: 30px;
+            width: 200px;
+        }
+        .object-mb{
+            position: relative;
+            top:-310px;
+            left:770px;
+            height:30px;
+            width:400px;
+            margin-top:10px;
+            margin-left:15px;
+        }
+        .object-info{
+            font-family: Cocon-Regular;
+            color:#0e0e0f;
+            font-size: 20px;
+        }
+        .div-search{
+            margin-top:10px;
+            text-align: center;   
+        }
+        .intro-header{
+            border:0.1px solid black;
+            width: 1518px;
+            height: 500px;
+            background-image: url("/images/auction-house.jpg");
+             background-position: top;
+                     background-repeat: no-repeat;
+                     background-size: cover;
+        }
+        .userlotsform{
+            margin-bottom:1px;
+        }
+        .site-heading{
+             font-weight: 600px;
+            margin-top: 120px;
+            font-family: NK117;
+            font-size: 38px;
+            text-align: center;
+            color:white;
+        }
+        .smartsell{
+            font-family:Colonna MT;
+             font-size: 100px;
+              position: relative;
+              top:-8px;
+              left: 6px;
+        }
+        .addform{
+            margin-left: 530px;
+        }
+        .product-info{
+        font-family: Cocon-Regular;
+        font-size: 23px;
+        margin-left: 50px;
+        border-radius: 10px; 
+    }
+.object1{
+margin-top:30px;
+height: 545px;
+margin-left:170px;
+margin-right:170px;
+
+}
+.object-left{
+float:left;
+text-align: center;
+width:350px;
+height:480px;
+margin-left:20px;
+margin-top:20px;
+}
+.object-left:hover{
+    background:#ff4300;
+    transition: .3s linear;
+}
+.object-center{
+float:left;
+width:350px;
+text-align: center;
+height:540px;
+margin-left:20px;
+margin-top:20px;
+}
+.object-center:hover{
+    background:#ff4300;
+    transition: .3s linear;
+}
+.object-right{
+float:left;
+width:350px;
+height:480px;
+text-align: center;
+margin-left:20px;
+margin-top:20px;
+}
+.object-right:hover{
+    background:#ff4300;
+    transition: .3s linear;
+}
+.photo1{
+margin: 10px;
+height:160px;
+}
+.photo1-center{
+margin: 10px;
+height:220px;
+}
+.object-left{
+float:left;
+text-align: center;
+width:350px;
+height:480px;
+margin-left:20px;
+margin-top:20px;
+}
+
+ .object1-info{
+            margin-top: 1px;
+            margin-left: 4px;
+            font-family: Cocon-Regular;
+            color:#0e0e0f;
+            font-size: 17px;
+            text-align: center;
+    }
+        .object1-button{
+            margin-top:5px; 
+            background: white;
+            font-family: Cocon-Regular;
+            font-size: 16px;
+            color:black;
+            width: 170px;
+            border-radius: 10px;
+            border:2px groove red;
+        }
+        .product-name{
+    font-family: Cocon-Regular;
+    font-size: 45px;
+    margin-left: 200px;
+    }
+    .product-photo{
+        margin-left: 250px;
+        width: 800px;
+        height: 500px;
+    }
+    .product-owner{
+        font-family: Cocon-Regular;
+        font-size: 25px;
+        margin-left: 200px; 
+    }
+
+        @media screen and (max-width: 600px){
+    }
+  .object1 {
+    margin-top:30px;
+height: 545px;
+margin-left:20px;
+margin-right:20px;
+  }
+  .object-right{
+float:left;
+width:50%;
+height:480px;
+text-align: center;
+margin-left:20px;
+margin-top:20px;
+}
+.object-center{
+float:left;
+width:50%;
+text-align: center;
+height:540px;
+margin-left:20px;
+margin-top:20px;
+}
+.object-left{
+float:left;
+text-align: center;
+width:50%;
+height:480px;
+margin-left:20px;
+margin-top:20px;
+}
+
+}
+        @font-face {
+            font-family: Cocon-Regular; /* Гарнитура шрифта */
+            src: url(/fonts/12492.otf); /* Путь к файлу со шрифтом */
+        }
+        @font-face {
+            font-family: NK117; /* Гарнитура шрифта */
+            src: url(/fonts/12529.otf); /* Путь к файлу со шрифтом */
+        }
+        @font-face {
+            font-family: Colonna MT; /* Гарнитура шрифта */
+            src: url(/fonts/2365.ttf); /* Путь к файлу со шрифтом */
+        } 
